@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background: rgb(226, 226, 226);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+a{
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid whitesmoke;*/
+    width: 50%;
+    padding: 50px 15px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.post {
+    min-width: 400px;
+    width: 500px;
+    border: 1px solid rgb(173, 173, 173);
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.post-header {
+    line-height: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 8px 0px 8px;
+    vertical-align: middle;
+    letter-spacing: -1px;
+    line-height: 0;
+    font-size: 12px;
+}
+
+.header-profile{
+    display: flex;
+    justify-content: start;
+}
+
+.profile-user{
+    text-align: left;
+    flex-direction: column;
+    height: 30px;
+    margin-left: 6px;
+}
+
+.header-options p{
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+
+.profile-photo img {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.post-body{
+    width: 100%;
+}
+
+.post-content img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.post-options{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 12px 4px 12px;
+}
+
+.body-optionset{
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+}
+
+.body-optionset{
+    display: flex;
+    flex-direction: row;
+}
+
+.body-optionset1 i{
+    font-size: 24px;
+    color: rgb(100, 100, 100);
+    margin-right: 6px;
+}
+
+.body-optionset2 i{
+    font-size: 24px;
+    color: rgb(100, 100, 100);
+}
+
+.post-caption {
+    text-align: left;
+    padding: 0px 12px 0px 12px;
+}
+
+i:hover,
+a:hover{
+    color: black;
+}
